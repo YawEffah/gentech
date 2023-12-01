@@ -239,7 +239,7 @@ h2{
 @media(min-width:1024px){
 
     .banner{
-        height: 500px;
+        height: 420px;
         background: url("../images/banner-lg.png");
     }
 
@@ -266,13 +266,9 @@ h2{
         width: 600px;
     }
 
-    .submit-btn:hover{
-        background: #F97B2D;
-    }
-
-    .socials .fa:hover{
-        color: #F97B2D;
-    }
+    .submit-btn:hover{background: #F97B2D;}
+    .nav-link:hover{color: #F97B2D;}
+    .socials .fa:hover{color: #F97B2D;}
 }
 
 @media(min-width:1366px){
