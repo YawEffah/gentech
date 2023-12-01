@@ -9,7 +9,7 @@
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background: url('../images/banner-sm.png');
 }
 
@@ -53,6 +53,7 @@ h2{
     background: #0F2244;
     margin-right: -1px;
 }
+
 .plus-txt{
     background:#F97B2D ;
     text-decoration: none;
@@ -63,7 +64,17 @@ h2{
 }
 
 .services article{
+    height: 200px;
     background: #0F2244;
+}
+
+.service-items-wrapper{
+    margin-top: -180px;
+    padding: 20px;
+}
+
+.blog-items{
+    padding: 20px;
 }
 
 .service-items, .blog-items{
@@ -151,4 +162,142 @@ h2{
 
 .contact-info strong{
     color: #F97B2D;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    font-size: 20px; 
+    background: #F97B2D; 
+  }
+  
+  #myBtn:hover {
+    background-color: #898989; /* Add a dark-grey background on hover */
+  }
+
+@media (min-width:768px) {
+
+    .banner{
+        height: 400px;
+        background: url("../images/banner-md.png");
+    }
+
+    .about-us{
+        width: 400px;
+        margin-top: -150px;
+        margin-left: 350px;
+        position: relative;
+    }
+
+    .service-items-wrapper, .blog-items{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .service-items, .blog-items{
+        grid-row-gap: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services article{
+        height: 350px;
+        background: #0F2244;
+    }
+
+    .services article h2{
+        width: 60%;
+    }
+
+    .service-items-wrapper{
+        margin-top: -300px;
+    }
+
+    .clients-reviews p{
+        font-size: 20px;
+        color: #0F2244;
+    }
+
+    .contact-form{
+        width: 450px;
+    }
+}
+
+@media(min-width:1024px){
+
+    .banner{
+        height: 500px;
+        background: url("../images/banner-lg.png");
+    }
+
+    .about-us{
+        width: 550px;
+        margin-left: 450px;
+        padding: 80px 40px;
+    }
+
+    .about-us h2{
+        font-size: 54px;
+    }
+
+    .service-items-wrapper, .blog-items{
+        width: 800px;
+        grid-row-gap: 80px;
+    }
+
+    .services .wrapper{
+        padding: 60px 100px;
+    }
+
+    .contact-form{
+        width: 600px;
+    }
+
+    .submit-btn:hover{
+        background: #F97B2D;
+    }
+
+    .socials .fa:hover{
+        color: #F97B2D;
+    }
+}
+
+@media(min-width:1366px){
+
+    .about-us{
+        width: 600px;
+        margin-left: 450px;
+    }
+
+    .service-items-wrapper, .blog-items{
+        width: 1200px;
+    }
+
+    .service-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact-form{
+        width: 800px;
+    }
+}
+
+@media(min-width:1600px) {
+    .about-us{
+        width: 650px;
+        margin-left: 800px;
+    }
 }
