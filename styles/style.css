@@ -29,6 +29,7 @@
 
 .logo{
     width: 40px;
+    margin-left: 20px;
 }
 
 .nav-item{
@@ -303,6 +304,7 @@ h2{
 
     .logo{
         width: 55px;
+        margin-left: 40px;
     }
 
     .banner{
