@@ -17,3 +17,16 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var navLinks = document.querySelectorAll(".nav-link");
+  var navbarToggler = document.querySelector(".navbar-toggler");
+  
+  navLinks.forEach(function (navLink) {
+      navLink.addEventListener("click", function () {
+          if (window.innerWidth < 992) {
+              navbarToggler.click(); 
+          }
+      });
+  });
+});

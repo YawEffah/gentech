@@ -29,7 +29,6 @@
 
 .logo{
     width: 40px;
-    margin-left: 20px;
 }
 
 .nav-item{
@@ -331,7 +330,7 @@ h2{
     }
 
     .footer-info{
-        width: 800px;
+        width: 900px;
         grid-column-gap: 100px;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -365,5 +364,9 @@ h2{
     .about-us{
         width: 650px;
         margin-left: 800px;
+    }
+
+    .footer-info{
+        width: 1100px;
     }
 }
