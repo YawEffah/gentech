@@ -167,8 +167,8 @@ h2{
     padding: 40px 20px;
     background: #0F2244;
     margin-bottom: 20px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .footer-info{
