@@ -4,6 +4,10 @@
     outline: none;
 }
 
+p{
+    line-height: 30px;
+}
+
 .banner{
     width: 100%;
     height: 300px;
@@ -62,6 +66,28 @@ h2{
     padding: 10px;
 }
 
+.about-container{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-gap: 40px;
+    margin: 30px auto;
+}
+
+.about-container h3{
+    color: #F97B2D;
+    font-weight: bold;
+}
+
+.about-container p{
+    color: #333;
+}
+
+.about-container img{
+    width: 100%;
+    height: auto;
+}
+
 .about-cta{
     position: absolute;
     margin-top: 45px;
@@ -100,12 +126,12 @@ h2{
 }
 
 .services article{
-    height: 200px;
+    height: 300px;
     background: #0F2244;
 }
 
 .service-items-wrapper{
-    margin-top: -180px;
+    margin-top: -230px;
     padding: 20px;
 }
 
@@ -155,6 +181,10 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.client-info p{
+    line-height: normal;
 }
 
 .client-info img{
@@ -253,6 +283,9 @@ h2{
     }
     .banner{
         height: 400px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .about-us{
@@ -260,6 +293,18 @@ h2{
         margin-top: -200px;
         margin-left: 350px;
         position: relative;
+    }
+
+    .about-container{
+        width: 700px;
+    }
+
+    .about-container article{
+        width: 100%;
+        display: grid;
+        grid-gap: 40px;
+        margin: 30px auto;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .service-items-wrapper, .blog-items{
@@ -277,7 +322,7 @@ h2{
     }
 
     .services article{
-        height: 350px;
+        height: 400px;
         background: #0F2244;
     }
 
@@ -307,6 +352,7 @@ h2{
     }
 
     .banner{
+        background-size: cover;
         background: url('../images/banner.jpg');
     }
 
@@ -314,6 +360,11 @@ h2{
         width: 550px;
         margin-left: 450px;
         padding: 60px 40px;
+    }
+
+    .about-container{
+        width: 1000px;
+        margin: 100px auto;
     }
 
     .about-us h2{
@@ -344,7 +395,7 @@ h2{
 
     .about-us{
         width: 600px;
-        margin-left: 500px;
+        margin-left: 600px;
     }
 
     .service-items-wrapper, .blog-items{
