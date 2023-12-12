@@ -18,6 +18,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
+//when the user clikcs on a nav-link, collapse the navigation
 document.addEventListener("DOMContentLoaded", function () {
   var navLinks = document.querySelectorAll(".nav-link");
   var navbarToggler = document.querySelector(".navbar-toggler");
