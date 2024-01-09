@@ -86,6 +86,7 @@ h2{
 .about-container img{
     width: 100%;
     height: auto;
+    padding-top: 20px;
 }
 
 .about-cta{
@@ -289,6 +290,7 @@ h2{
   
   #myBtn:hover {
     background-color: #898989; /* Add a dark-grey background on hover */
+    transition: 0.5s;
   }
 
 @media (min-width:768px) {
@@ -427,8 +429,12 @@ h2{
     }
 
     .submit-btn:hover{background: #F97B2D;}
-    .nav-link:hover{color: #F97B2D;}
-    .socials .fa:hover{color: #F97B2D;}
+    .nav-link:hover{
+        color: #F97B2D;
+        transition: 0.5s;
+        
+    }
+    .socials .fa:hover, .fa-brands:hover{color: #F97B2D; transition: 0.5s;}
 }
 
 @media(min-width:1366px){
